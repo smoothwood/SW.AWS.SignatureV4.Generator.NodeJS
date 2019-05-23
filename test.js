@@ -1,7 +1,7 @@
 v4 = require("./index.js");
 mqtt = require("mqtt");
 
-var preSignedUrl = v4.generate_signv4_mqtt("a3f3ep261pa8dz-ats.iot.ap-northeast-1.amazonaws.com", "ap-northeast-1", "", "");
+var preSignedUrl = v4.generate_signv4_mqtt("a3f3ep261pa8dz-ats.iot.ap-northeast-1.amazonaws.com", "ap-northeast-1", "your access key id", "your secret access key");
 
 port = 443
 topic = 'testtopic'
