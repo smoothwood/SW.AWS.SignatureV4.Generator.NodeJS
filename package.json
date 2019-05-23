@@ -1,0 +1,32 @@
+{
+  "name": "aws-signaturev4-generator",
+  "version": "1.0.0",
+  "description": "Generate AWS Signature V4 signed url by using IAM credential (Access key ID and Secret access key).",
+  "main": "index.js",
+  "dependencies": {
+    "crypto": "^1.0.1",
+    "moment": "^2.24.0",
+    "mqtt": "^2.18.8",
+    "utf8": "^3.0.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/smoothwood/SW.AWS.SignatureV4.Generator.NodeJS.git"
+  },
+  "keywords": [
+    "aws",
+    "signature",
+    "v4",
+    "generator"
+  ],
+  "author": "ycm",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/smoothwood/SW.AWS.SignatureV4.Generator.NodeJS/issues"
+  },
+  "homepage": "https://github.com/smoothwood/SW.AWS.SignatureV4.Generator.NodeJS#readme"
+}
