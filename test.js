@@ -1,4 +1,4 @@
-v4 = require("./index.js");
+v4 = require("aws-signaturev4-generator");
 mqtt = require("mqtt");
 
 var preSignedUrl = v4.generate_signv4_mqtt("a3f3ep261pa8dz-ats.iot.ap-northeast-1.amazonaws.com", "ap-northeast-1", "your access key id", "your secret access key");
